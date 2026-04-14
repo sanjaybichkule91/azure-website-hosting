@@ -2,7 +2,7 @@ FROM nginx:alpine
 
 WORKDIR /myapp
 
-COPY .
+COPY / ..
 
 EXPOSE 80
 
